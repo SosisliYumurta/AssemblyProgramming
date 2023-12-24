@@ -3,7 +3,7 @@
 .DATA
 
 .CODE       
-    ANA PROC FAR
+    MAIN PROC FAR
         
     MOV AX,@DATA
     MOV DS,AX
@@ -22,5 +22,5 @@
         MOV AH,4CH
         INT 21H
         
-    ANA ENDP
-    END ANA    
+    MAIN ENDP
+    END MAIN    
